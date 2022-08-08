@@ -9,6 +9,8 @@
             f1.series();
             Perfect_number pn = new Perfect_number();
             pn.Pn1();
+            Prime_number pm = new Prime_number();
+            pm.pm();
 
         }
     }
