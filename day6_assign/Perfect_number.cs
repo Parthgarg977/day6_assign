@@ -8,7 +8,6 @@ namespace Day6_assign
         {
             Console.WriteLine("Enter number");
             int n1=Convert.ToInt32(Console.ReadLine());
-            var factors = new ArrayList();
             int j = 0;
             for (int i =1; i < n1; i++)
             {

@@ -13,7 +13,7 @@ namespace Day6_assign
             for (int i = 2; i < number; ++i) //loop starts from 2 because 0 and 1 are already printed    
             {
                 n3 = number1 + number2;
-                Console.Write(n3 + " ");
+                Console.WriteLine(n3 + " ");
                 number1 = number2;
                 number2 = n3;
             }

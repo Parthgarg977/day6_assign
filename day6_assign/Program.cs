@@ -11,7 +11,8 @@
             pn.Pn1();
             Prime_number pm = new Prime_number();
             pm.pm();
-
+            Reverse_number rn = new Reverse_number();
+            rn.Rn();
         }
     }
 }
