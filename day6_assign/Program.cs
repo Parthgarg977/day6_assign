@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Day6_assign
+{
+    class Hello
+    {
+        static void Main(string[] args)
+        {
+            System.Console.WriteLine("Hello World!");
+            Fibbo_series f1 = new Fibbo_series();
+            f1.series();
+        }
+    }
+}
