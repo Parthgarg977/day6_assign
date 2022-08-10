@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("Enter 1 for fibbonacci series program \nEnter 2 for Perfect Number\nEnter 3 for Prime Number\nEnter 4 for Reverse Number\nEnter 5 for Coupon generation\nEnter 6 for stopwatch program");
             byte user_input = (byte)Convert.ToInt32(Console.ReadLine());
             switch (user_input)
