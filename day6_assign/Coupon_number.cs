@@ -30,7 +30,9 @@ namespace Day6_assign
             }
             foreach (int coupon in coupons)
             {
+
                 Console.Write(coupon +" ");
+
             }
             Console.WriteLine("\nRandom numbers need to generate" + n1 + "no. of coupons are:" + generate);
         }
