@@ -15,7 +15,7 @@
 
             }
 
-            Console.WriteLine("New number" + req_num);
+            Console.WriteLine("New number: " + req_num);
 
 
         }

@@ -26,11 +26,12 @@ namespace Day6_assign
                     coupons[i]=randomnumber;
                     
                 }
+                i++;
                 
             }
             for (int j=0; j < n1; j++)
             {
-                Console.Write(coupons[i]+" ");
+                Console.Write(coupons[j]+" ");
             }
         }
     }
